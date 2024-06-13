@@ -1,3 +1,4 @@
+//Exercicio 21°
 const prompt= require("prompt-sync")();
 
 let altura = parseFloat(prompt("Digite a altura (em metros): "));

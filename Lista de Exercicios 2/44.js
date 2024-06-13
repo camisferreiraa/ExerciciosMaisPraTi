@@ -1,3 +1,4 @@
+//Exercicio 44°
 function contarStrings(obj) {
     let contador = 0;
 

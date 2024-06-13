@@ -1,6 +1,5 @@
+//Exercicio 20°
 const prompt = require("prompt-sync")();
-
-
 
 function lerDadosFuncionario() {
     const matricula = prompt("Digite a matrícula do funcionário: ");
@@ -30,7 +29,7 @@ function calcularSalarioLiquido(salarioBruto, deducaoINSS) {
     console.log('-----------------------------------');
   }
   
-  // Função principal para ler os dados e emitir contracheques para todos os funcionários
+
   function processarFolhaPagamento() {
     const numeroFuncionarios = 1;
     const funcionarios = [];
@@ -45,6 +44,6 @@ function calcularSalarioLiquido(salarioBruto, deducaoINSS) {
     funcionarios.forEach(funcionario => emitirContracheque(funcionario));
   }
   
-  // Executa o processamento da folha de pagamento
+ 
   processarFolhaPagamento();
   

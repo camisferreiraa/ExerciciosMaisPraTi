@@ -1,12 +1,11 @@
-// Exercicio 43
+// Exercicio 43°
 
 function combinarObjetos(obj1, obj2) {
-    // Combina as propriedades dos dois objetos
-    // As propriedades de obj2 terão precedência sobre as de obj1 em caso de conflitos
+   
     return { ...obj1, ...obj2 };
 }
 
-// Exemplo de uso
+o
 let obj1 = {
     nome: "Ana",
     idade: 25,
@@ -19,8 +18,7 @@ let obj2 = {
     email: "ana@example.com"
 };
 
-// Chamar a função para combinar os objetos
 let objCombinado = combinarObjetos(obj1, obj2);
 
-// Imprimir o objeto combinado
+
 console.log("Objeto combinado:", objCombinado);

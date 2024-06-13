@@ -1,3 +1,4 @@
+//Exercicio 46°
 function totalVendasPorVendedor(vendas) {
     let resumoVendas = {};
 
@@ -15,7 +16,7 @@ function totalVendasPorVendedor(vendas) {
     return resumoVendas;
 }
 
-// Exemplo de uso
+
 let vendas = [
     { vendedor: "Ana", valor: 150 },
     { vendedor: "Pedro", valor: 200 },
@@ -27,5 +28,5 @@ let vendas = [
 
 let resumo = totalVendasPorVendedor(vendas);
 
-// Imprimir o resumo das vendas por vendedor
+
 console.log(resumo);

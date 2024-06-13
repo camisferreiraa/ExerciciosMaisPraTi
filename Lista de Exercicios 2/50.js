@@ -1,3 +1,4 @@
+//Exercicio 50°
 class Hotel {
     constructor(id, nome, cidade, quartosTotais) {
         this.id = id;

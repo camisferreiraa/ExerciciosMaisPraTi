@@ -27,13 +27,11 @@ function processMatrix(M) {
     modifiedM.forEach(row => console.log(row.join("\t")));
 }
 
-// Exemplo de uso da função
-// Criar matriz M de exemplo (3x3) com valores aleatórios entre 1 e 10
 let M = [
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
 ];
 
-// Chamar a função com a matriz M
+
 processMatrix(M);

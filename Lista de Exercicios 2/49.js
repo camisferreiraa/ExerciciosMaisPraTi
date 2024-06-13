@@ -1,3 +1,4 @@
+//Exercicio 49°
 function organizarTransacoesPorCategoria(transacoes) {
     let resultado = {};
 
@@ -18,7 +19,6 @@ function organizarTransacoesPorCategoria(transacoes) {
     return resultado;
 }
 
-// Exemplo de uso
 const transacoes = [
     { id: 1, valor: 100, data: '2023-01-01', categoria: 'Alimentação' },
     { id: 2, valor: 50, data: '2023-01-02', categoria: 'Transporte' },
@@ -29,6 +29,4 @@ const transacoes = [
 ];
 
 const transacoesOrganizadas = organizarTransacoesPorCategoria(transacoes);
-
-// Imprimir o resultado
 console.log(transacoesOrganizadas);

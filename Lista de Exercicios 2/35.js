@@ -21,7 +21,7 @@ function processValues(values) {
         }
     });
 
-    // Escrever qualquer conteúdo restante nos vetores
+ 
     if (evenArray.length > 0) {
         console.log("Vetor Par Restante:", evenArray);
     }
@@ -30,9 +30,7 @@ function processValues(values) {
     }
 }
 
-// Exemplo de uso da função
-// Criar um conjunto de 30 valores aleatórios entre 1 e 100
+
 let values = Array.from({ length: 30 }, () => Math.floor(Math.random() * 100) + 1);
 
-// Chamar a função com os valores
 processValues(values);

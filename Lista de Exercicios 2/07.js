@@ -2,14 +2,14 @@
 const prompt = require("prompt-sync")();
 
 
-let carro = prompt("Qual tipo de carro, digite 'P' para Popular, e 'L' para Luxo:").toUpperCase();
-while (carro != "P" && carro != "L") {
+let car = prompt("Qual tipo de carro, digite 'P' para Popular, e 'L' para Luxo:").toUpperCase();
+while (carro != "P" && car != "L") {
     console.log("Opção inválida!");
-    carro = prompt("Digite novamente: ");
+    car = prompt("Digite novamente: ");
 }
 let diasAlugado = Number(prompt("Quantos dias foi alugado?"));
 let kmPercorrido = Number(prompt("Quanto Km foram percorridos?"));
-if (carro == "P"){
+if (car == "P"){
     if (kmPercorrido <=  100) {
         let valorKM = kmPercorrido * 0.2;
     } else {

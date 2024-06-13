@@ -1,3 +1,4 @@
+//Exercicio 45°
 function contarOcorrencias(array) {
     let contador = {};
 
@@ -12,10 +13,10 @@ function contarOcorrencias(array) {
     return contador;
 }
 
-// Exemplo de uso
+
 let arrayDeStrings = ["maçã", "banana", "laranja", "maçã", "banana", "maçã"];
 
 let ocorrencias = contarOcorrencias(arrayDeStrings);
 
-// Imprimir o objeto com as ocorrências
+
 console.log(ocorrencias);

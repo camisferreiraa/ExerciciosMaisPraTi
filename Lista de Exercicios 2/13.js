@@ -1,7 +1,4 @@
-/*Crie um programa que preencha automaticamente (usando lógica, não apenas
-    atribuindo diretamente) um vetor numérico com 15 posições com os primeiros elementos
-    da sequência de Fibonacci.*/
-    // Função para preencher um vetor com os primeiros 'n' números da sequência de Fibonacci
+//Exercicio 13°
     function gerarSequencia(n) {
     
         let vetor = [1, 1];
